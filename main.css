@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+}
+
+body { 
+  padding-top: 56px; 
+}
+
+.stickyNote {
+   margin-top: 50vh;
+   text-align: center;
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   font-weight: bold;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  font-size: 3vw;
+  padding-bottom: 10%;
+  }
+
+.cvButton a:link {
+  text-decoration:none; 
+  color: black;
+}
+.cvButton a:visited {
+  text-decoration:none;
+  color: black;
+}
+.cvButton a:hover {
+  text-decoration:none; 
+  color: black;
+}
+.cvButton a:active {
+  text-decoration:none; 
+  color: black;}
+
+  .contentContact {
+    /* width: 50%; */
+    margin-top: 50vh;
+   text-align: center;
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .herosxn {
+    top: 0;
+    left: 0;
+    background: url(./mainbg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+   justify-content: center;
+   opacity: 90%;
+   /* align-items: center; */
+    /* position: fixed; */
+    /* text-align: center; */
+    /* z-index: 1; */
+    /* filter: brightness(80%); */
+}
+
+  .about {
+    height: 300vh;
+    display: flex;
+  }
+
+  .about-title{
+    width: 50%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+  }
+
+  .intro p {
+    margin-top: 100px;
+  }
+
+  .hi {
+    display: inline-block;
+    color: white;
+  }
+
+  .text {
+    color: white;
+  }
+  
+
+
+  
+
+ .scroll {
+  height: calc(100vh-80px);
+  overflow-y: scroll;
+  /* padding-right: 20px; */
+ }
+
+/* intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+     background-color: blue; 
+  } */
+#aboutMe {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* background-color: green; */
+  }
+#toolss {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* background-color: green; */
+  }
+
+  /* #toolss .col {
+    margin-top: 5px;
+  } */
+#projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* background-color: red; */
+  }
